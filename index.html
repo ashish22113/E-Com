@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Alien online shopify OS 2.0</title>
+  </head>
+
+
+
+
+
+
+
+
+    <title>Allien shoping template</title>
+    <style>
+        body, ul {
+            margin: 0;
+            padding: 0;
+        
+        }
+        .heading-container {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        
+        }
+        .heading-menu {
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+            display: flex; 
+        }
+        .heading-menu li {
+            margin-left: 10px; 
+        }
+        .heading-menu li a {
+            color: #fff; 
+            text-decoration: none; 
+            padding: 10px 20px; 
+            transition: background-color 0.3s; 
+        }
+        .heading-menu li a:hover {
+            background-color: #555; 
+        }
+        .heading-menu li.active a {
+            font-weight: bold;
+        }
+        .dropdown {
+            position: relative; 
+        }
+        .dropdown-content {
+            display: none; 
+            position: absolute;
+            background-color: #333; 
+            min-width: 160px; 
+            z-index: 1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-content a {
+            color: #fff; 
+            padding: 12px 16px; 
+            text-decoration: none; 
+            display: block; 
+        }
+        .dropdown-content a:hover
+         {
+            background-color: #555; 
+        }
+    </style>
+</head>
+<body>
+  
+    <div class="heading-container">
+        <h4>We guarantee the lowest online price!</h4>
+        <ul class="heading-menu">
+            <li class="active"><a href="#">BLOG</a></li>
+            <li class="active"><a href="#">HELP</a></li>
+            <li class="dropdown">
+                <a href="#">USD $</a>
+                <div class="dropdown-content">
+                    <a href="#">USD $</a>
+                    <a href="#">EUR €</a>
+                    <a href="#">GBP £</a>
+                </div>
+            </li>
+            <li class="active"><a href="#">REGISTER</a></li>
+            <li class="active"><a href="#">SIGN IN</a></li>
+        </ul>
+    </div>
+
+
+<nav>
+
+
+    <div class="logo">
+       <a href="#"><img src="picture/Logo.jpg" alt="logo"></a>
+    </div>
+    <div class="toggle">
+        <a href="#"><ion-icon name="menu"></ion-icon></a>
+    </div>
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">All Collections &#x25BE;</a>
+        <ul class="dropdown">
+         <li>Fashions</li>
+         <li>Electronics</li>
+         <li>Home & Garden</li>
+        </ul>
+        </li>
+        <li><a href="#">Shop Layout&#x25BE;</a>
+            <ul class="dropdown">
+                <li>Collections Styles</li>
+                <li>Product Styles</li>
+                <li>Product Types</li>
+               </ul></li>
+        <li><a href="#">Pages&#x25BE;</a>
+            <ul class="dropdown">
+                <li>Contact Us</li>
+                <li>login</li>
+                <li>Register</li>
+               </ul></li>
+        <li><a href="#">Blogs&#x25BE;</a>
+            <ul class="dropdown">
+                <li>Fashions</li>
+                <li>Electronics</li>
+                <li>Home & Garden</li>
+               </ul></li>
+               <li><a href="#">Contact us&#x25BE;</a>
+                <ul class="dropdown">
+                    <li>Privacy Policy</li>
+                    <li>Refund Policy</li>
+                    <li>Shipping 
+                        <li>Terms of Services</li>
+                    </li>
+                   </ul></li>
+    </ul>
+    <div class="bon">
+        <form>
+            <input type="text" placeholder="Search">
+            <button type="submit">Search</button>
+        </form>
+    </div> 
+</nav>
+
+<div>
+<style>
+    .slider-container {
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .slider {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+
+    .slide {
+        min-width: 100%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        z-index: 2;
+    }
+
+    .prev {
+        left: 0;
+    }
+
+    .next {
+        right: 0;
+    }
+</style>
+
+<div>
+<div class="slider-container">
+    <div class="slider">
+        <div class="slide"><img src="picture/image4.jpg" alt="Slide 1"></div>
+        <div class="slide"><img src="picture/image12.jpg" alt="Slide 2"></div>
+        <div class="slide"><img src="picture/image9.jpg" alt="Slide 1"></div>
+        <div class="slide"><img src="picture/image13.jpg" alt="Slide 3"></div>
+        <div class="slide"><img src="picture/image16.jpg" alt="Slide 3"></div>
+    </div>
+</div>
+
+<button class="prev" onclick="moveSlide(-1)">❮</button>
+<button class="next" onclick="moveSlide(1)">❯</button>
+</div>
+<script>
+    let slideIndex = 0;
+
+    function moveSlide(n) {
+        slideIndex += n;
+        showSlides();
+    }
+
+    function showSlides() {
+        const slides = document.querySelectorAll('.slide');
+        if (slideIndex >= slides.length) {
+            slideIndex = 0;
+        } else if (slideIndex < 0) {
+            slideIndex = slides.length - 1;
+        }
+        const offset = -slideIndex * 100 + '%';
+        document.querySelector('.slider').style.transform = `translateX(${offset})`;
+    }
+
+    showSlides();
+</script>
+</div>
+</div>
+
+
+<div>
+<div><h1><i>BEST OFFER.......</i></h1></div>
+
+<div class="container">
+    <div class="item">
+        <div class="image">
+            <img src="picture/img4.jpg" alt="Image 1">
+        </div>
+        <div class="text">
+            <h2>Mobile Phone..</h2>
+            <p>UP TO 30% Discount shop now....</p>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="image">
+            <img src="picture/shoes1.jpg" alt="Image 2">
+        </div>
+        <div class="text">
+            <h2>Branded Shoes..</h2>
+            <p>UP TO 40% Discount shop now......</p>
+        </div>
+    </div>
+
+
+    <div class="item">
+      <div class="image">
+          <img src="picture/bag2.jpg" alt="Image 2">
+      </div>
+      <div class="text">
+          <h2>Collage Bag..</h2>
+          <p>UP TO 50% Discount shop now....</p>
+      </div>
+  </div>
+
+
+  <div class="item">
+    <div class="image">
+        <img src="picture/shoes2.jpg" alt="Image 2">
+    </div>
+    <div class="text">
+        <h2>Runinig Shoes..</h2>
+        <p>UP TO 70% Discount shop now...</p>
+    </div>
+</div>
+
+
+
+<div class="item">
+  <div class="image">
+      <img src="picture/image14.jpg" alt="Image 2">
+  </div>
+  <div class="text">
+      <h2>Grocery Items....</h2>
+      <p>UP TO 40% Discount shop now..</p>
+  </div>
+</div>
+
+
+<div class="item">
+  <div class="image">
+      <img src="picture/image3.jpg" alt="Image 2">
+  </div>
+  <div class="text">
+      <h2>Branded Collection..</h2>
+      <p>UP TO 80% Discount shop now...</p>
+  </div>
+</div>
+
+    <!-- Add more items with images and text here -->
+</div>
+</div>
+
+
+
+
+
+<!-- two image there  -->
+
+
+<div>
+  <div class="container">
+      <div class="image1">
+          <img src="picture/image10.jpg" alt="Image 1">
+      </div>
+      <div class="image2">
+          <img src="picture/image11.jpg" alt="Image 2">
+      </div>
+    
+  </div>  
+  </div>
+  
+
+  
+<!-- square box  -->
+
+  <div>
+    <div>
+    <div class="container">
+      <div class="box" style="background-image: url(picture/bag2.jpg)">School Bag</div>
+      <div class="box" style="background-image: url(picture/shoes1.jpg)">Shoes</div>
+      <div class="box" style="background-image: url(picture/img4.jpg)">Smartphone</div>
+      <div class="box" style="background-image: url(picture/bottal1.jpg)">Perfume</div>
+      <div class="box" style="background-image: url(picture/makeup1.jpg)">Makeup kit</div>
+      <div class="box" style="background-image: url(picture/img6.jpg)">Hair oil</div>
+    </div>
+    </div>
+    
+    <div>
+      <div class="container">
+        <!-- Six square boxes with images -->
+        <div class="box" style="background-image: url(picture/bottal1.jpg)">Image 1</div>
+        <div class="box" style="background-image: url('picture/makeup1.jpg')">Image 2</div>
+        <div class="box" style="background-image: url(picture/img6.jpg)">Image 3</div>
+        <div class="box" style="background-image: url(picture/img4.jpg)">Image 4</div>
+        <div class="box" style="background-image: url(picture/shoes1.jpg)">Image 5</div>
+        <div class="box" style="background-image: url(picture/bag2.jpg)">Image 6</div>
+      </div>
+      </div>
+    </div>
+
+
+<!--3 by 3 image in  row -->
+
+<div class="container">
+    <div class="item">
+        <div class="image">
+            <img src="picture/image14.jpg" alt="Image 1">
+        </div>
+        <div class="text">
+          <i><h2>Fruits</h2>
+            <p>Lorem ipsum fruits.</p></i>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="image">
+            <img src="picture/f1.jpg" alt="Image 2">
+        </div>
+        <div class="text">
+          <i><h2>Mixed Fruits</h2>
+            <p>Lorem ipsum fruits.</p></i>
+        </div>
+    </div>
+
+    <div class="item">
+      <div class="image">
+          <img src="picture/girls2.jpg" alt="Image 2">
+      </div>
+      <div class="text">
+        <i><h2>Helthy girls</h2>
+          <p>Good helth for fruits.</p></i>
+      </div>
+  </div>
+
+  <div class="item">
+    <div class="image">
+        <img src="picture/veg1.jpg" alt="Image 2">
+    </div>
+    <div class="text">
+      <i><h2>Vegitables</h2>
+        <p>Lorem ipsum vegitables.</p></i>
+    </div>
+</div>
+
+<div class="item">
+  <div class="image">
+      <img src="picture/cloth1.jpg" alt="Image 2">
+  </div>
+  <div class="text">
+    <i><h2>Ilastic cloth</h2>
+      <p>Lorem ipsum cloths.</p></i>
+  </div>
+</div>
+
+<div class="item">
+  <div class="image">
+      <img src="picture/dog1.jpg" alt="Image 2">
+  </div>
+  <div class="text">
+    <i><h2>Dog</h2>
+      <p>Lorem ipsum dogs.</p></i>
+  </div>
+
+
+
+
+</div>
+
+
+    <!-- Add more items with images and text here -->
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    // jQuery for sliding effect
+    $(document).ready(function(){
+        $(".box").hover(function(){
+            $(this).css("transform", "scale(1.2)"); /* Increase the size on hover */
+        }, function(){
+            $(this).css("transform", "scale(1)"); /* Reset size when not hovered */
+        });
+    });
+</script>
+</head>
+<body>
+
+<div class="container">
+    <!-- Six circular boxes with images -->
+    <div class="box" style="background-image: url(picture/girls3.jpg)">Victoria</div>
+    <div class="box" style="background-image: url(picture/boy1.jpg)">jack</div>
+    <div class="box" style="background-image: url(picture/oman2.jpg)">Mr.Rovert</div>
+    <div class="box" style="background-image: url(picture/olady1.jpg)">Locyfer</div>
+    <div class="box" style="background-image: url(picture/oman1.jpg)">Dr.Dennyes</div>
+    <div class="box" style="background-image: url(picture/girls3.jpg)">Rosy</div>
+</div>
+
+
+
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-2 mt-2">
+      <img src="https://cs-everything-marketdeal.myshopify.com/cdn/shop/files/Logo_100x.png?v=1655954601" width="100" height="71">
+    </div> -->
+
+
+
+
+
+    <div class="product-img">
+      <div class="first-view">
+        <img src="	https://cs-everything-marketdeal.myshopify.com/cdn/shop/products/product-29_1200x.jpg?v=1653276332" alt="logo" class="img-fluid">
+
+     
+      </div>
+      <!-- <div class="hover-view">
+        <img src="https://cs-everything-marketdeal.myshopify.com/cdn/shop/products/product-30_360x.jpg?v=165327633" alt="logo" class="img-fluid">
+      </div>
+    </div> -->
+
+
+
+
+<div></div>
+    <div class="bannerImage">
+      <img src="https://cs-everything-marketdeal.myshopify.com/cdn/shop/files/banner_1080x_1944x_3238559f-e6a9-496e-bca6-2a903d1ed62b_900x.webp?v=1657018914">
+    </div>
+  </div><br><br>
+<!-- footer code -->
+
+
+
+<div class="card">
+  <img src="picture/image12.jpg" class="card-img-top" alt=".">
+
+  
+</div>
+</div>
+
+
+
+
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+
+
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example text area</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your text"></textarea>
+</div>
+
+
+<div class="card-body">
+  <h5 class="card-title">Go in top </h5>
+  <a href="#" class="btn btn-primary"><i>Click here</i></a>
+</div>
+
+<footer>
+  <p>&copy; 2024 Ashish Sharma.@ Loock Foozzy Pvt.Ltd.</p>
+  <p>Contact:- +91 7648458928 info@example.com to be add your choice if you want thank you visit again</p>
+</footer>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
